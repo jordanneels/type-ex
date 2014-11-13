@@ -1,7 +1,43 @@
 /* Your Website Styles */
 
+body {
+	font-family: 'Lora', serif;
+	background: url("../img/light_grey.png");
+}
 
+h1 {
+	color: #757575;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+h3 {
+	color: #000;
+	text-align: center;
+	margin-top: 30px;
+}
+
+body > div > div.grid_6.alpha > p {
+	text-indent: 35px;
+	margin-right: 10px;
+	margin-left: 20px; 
+}
+
+body > div > div.grid_6.omega > p {
+	text-indent: 35px;
+	margin-right: 10px;
+	margin-left: 20px; 
+}
+
+p {
+	color: #44878F;
+	line-height: 25px;
+}
+
+img {
+	margin-top: 20px;
+}
 /* Show Grid */
 .showgrid {
-	background: url("../img/grid-bg.png") repeat-y;
+	background: url() repeat-y;
 }
